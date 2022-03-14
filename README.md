@@ -7,7 +7,7 @@ pip install -U pip virtualenv && virtualenv env && source env/bin/activate
 1.pip install -r requirements.txt
 
 # set below env variable
-2. export DJANGO_SETTINGS_MODULE= router.settings
+2. export DJANGO_SETTINGS_MODULE=router.settings
 
 #run migrations
 3. python manage.py migrate
