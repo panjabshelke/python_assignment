@@ -47,7 +47,8 @@ for example Authorization : token <ur token>
 ```
 
 ### SSH To Server
+```
 1. python manage.py sshrouter # Run this command to connect to machine and run ls command and store its out put in file change username and password
 2. python manage.py transferFile  # Transfer file on ftp server and ftp server details
-
+```
 
