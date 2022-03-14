@@ -10,7 +10,8 @@ pip install -U pip virtualenv && virtualenv env && source env/bin/activate
 2. export DJANGO_SETTINGS_MODULE=router.settings
 
 #run migrations
-3. python manage.py migrate
+3.1 python manage.py makemigrations
+3.2 python manage.py migrate
 
 #create superuser 
 4. python manage.py createsuperuser
@@ -45,6 +46,8 @@ for example Authorization : token <ur token>
 3. pytest -s -vv tests
 ```
 
-
+### SSH To Server
+1. python manage.py sshrouter # Run this command to connect to machine and run ls command and store its out put in file change username and password
+2. python manage.py transferFile  # Transfer file on ftp server and ftp server details
 
 
