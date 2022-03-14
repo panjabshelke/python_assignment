@@ -3,7 +3,7 @@ import ftplib
 from django.core.management.base import BaseCommand, CommandError
 
 class Command(BaseCommand):
-    help = 'SSH to the server Run a command(ls) on the server and save its output to an external text file'
+    help = 'File transfer to the server(FTP)'
 
     def handle(self, *args, **options):
         print("run command")
